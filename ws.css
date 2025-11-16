@@ -1,0 +1,64 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: grey;
+    border-radius: 5px;
+}
+section a {
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+#projects img {
+    width: 300px;
+    border-radius: 5px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, textarea {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+button {
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+button:hover {
+    background: white;
+    color: black;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background: black;
+    color: white;
+}
